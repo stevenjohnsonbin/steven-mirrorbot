@@ -329,9 +329,9 @@ class GoogleDriveHelper:
                     url = requests.utils.requote_uri(f'{INDEX_URL}/{meta.get("name")}/')
                     if SHORTENER is not None and SHORTENER_API is not None:
                         siurl = requests.get('https://{}/api?api={}&url={}&format=text'.format(SHORTENER, SHORTENER_API, url)).text
-                        buttons.buildbutton("🗂️Index Link🗂️", siurl)
+                        buttons.buildbutton("🏓Index Link🏓", siurl)
                     else:
-                        buttons.buildbutton("🗂️Index Link🗂️", url)
+                        buttons.buildbutton("🏓Index Link🏓", url)
                 if BUTTON_THREE_NAME is not None and BUTTON_THREE_URL is not None:
                     buttons.buildbutton(f"{BUTTON_THREE_NAME}", f"{BUTTON_THREE_URL}")
                 if BUTTON_FOUR_NAME is not None and BUTTON_FOUR_URL is not None:
@@ -356,9 +356,9 @@ class GoogleDriveHelper:
                     url = requests.utils.requote_uri(f'{INDEX_URL}/{file.get("name")}')
                     if SHORTENER is not None and SHORTENER_API is not None:
                         siurl = requests.get('https://{}/api?api={}&url={}&format=text'.format(SHORTENER, SHORTENER_API, url)).text
-                        buttons.buildbutton("🗂️Index Link🗂️", siurl)
+                        buttons.buildbutton("🏓Index Link🏓", siurl)
                     else:
-                        buttons.buildbutton("🗂️Index Link🗂️", url)
+                        buttons.buildbutton("🏓Index Link🏓", url)
                 if BUTTON_THREE_NAME is not None and BUTTON_THREE_URL is not None:
                     buttons.buildbutton(f"{BUTTON_THREE_NAME}", f"{BUTTON_THREE_URL}")
                 if BUTTON_FOUR_NAME is not None and BUTTON_FOUR_URL is not None:
@@ -478,9 +478,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=TELEGRAPH_TOKEN).edit_page(path = self.path[prev_page],
-                                 title = 'Akeno Mirror Bot - Search',
-                                 author_name='Akeno Mirror Bot',
-                                 author_url='https://github.com/Satriouz/akeno-mirrorbot',
+                                 title = 'Aɳ❍ɳყɱ❍UՏ ԲᎡíᎬɳᎠ Mirror Bot - Search',
+                                 author_name='Aɳ❍ɳყɱ❍UՏ ԲᎡíᎬɳᎠ Mirror Bot',
+                                 author_url='https://t.me/ANonYmoUS_FriEND',
                                  html_content=content)
         return
 
