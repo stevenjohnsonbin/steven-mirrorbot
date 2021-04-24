@@ -566,7 +566,7 @@ class GoogleDriveHelper:
                     self.edit_telegraph()
                 msg = f"<b>🔎 Search Results For <i>{fileName}</i></b> \n<b>📚 Found {len(response['files'])} results</b>"
                 buttons = button_build.ButtonMaker()
-                buttons.buildbutton("🔎 HERE 🔍", f"https://telegra.ph/{self.path[0]}")
+                buttons.buildbutton("🏓 CLICK HERE 🏓", f"https://telegra.ph/{self.path[0]}")
                 return msg, InlineKeyboardMarkup(buttons.build_menu(1))
             else:
                 return '', ''
