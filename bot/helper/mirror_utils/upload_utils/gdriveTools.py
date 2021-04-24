@@ -556,9 +556,9 @@ class GoogleDriveHelper:
                     return "No Result Found ❌", None
                 for content in self.telegraph_content:
                     self.path.append(Telegraph(access_token=TELEGRAPH_TOKEN).create_page(
-                        title='Akeno Mirror Bot Search',
-                        author_name='Akeno Mirror Bot',
-                        author_url='https://github.com/Satriouz/akeno-mirrorbot',
+                        title='Aɳ❍ɳყɱ❍UՏ ԲᎡíᎬɳᎠ Mirror Bot Search',
+                        author_name='Aɳ❍ɳყɱ❍UՏ ԲᎡíᎬɳᎠ Mirror Bot',
+                        author_url='https://t.me/ANonYmoUS_FriEND',
                         html_content=content
                     )['path'])
                 self.num_of_path = len(self.path)
