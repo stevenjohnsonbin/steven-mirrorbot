@@ -1,6 +1,6 @@
 [![Akeno](https://nodejs.vod-akamaized-adaptive.workers.dev/0:/applegatelinux/IMG_20210423_205116_231.jpg)](https://t.me/eightxbet)
 
-# Akeno Mirror Bot
+#  Mirror Bot
 This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
 
 ## Features supported:
@@ -46,7 +46,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/Satriouz/akeno-mirrorbot mirrorbot/
+git clone https://github.com/stevenjohnsonbin/steven-mirrorbot/
 cd mirrorbot
 ```
 
@@ -142,7 +142,7 @@ sudo docker run mirrorbot
 
 Give Star & Fork this repo, then upload **token.pickle** to your forks
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/Satriouz/akeno-mirrorbot"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/stevenjohnsonbin/steven-mirrorbot"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Deploying on Heroku using heroku-cli
 
