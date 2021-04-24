@@ -39,7 +39,7 @@ def stats(update, context):
             f'<b>💾 RAM:</b> {memory}%\n' \
             f'<b>💿 Disk:</b> {disk}%'
     update.effective_message.reply_photo("https://nodejs.vod-akamaized-adaptive.workers.dev/0:/applegatelinux/IMG_20210423_205116_231.jpg", stats, parse_mode=ParseMode.HTML)
-    sendMessage(stats, context.bot, update)
+ 
 
 
 @run_async
