@@ -54,7 +54,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
 def repo(update, context):
     bot.send_message(update.message.chat_id,
     reply_to_message_id=update.message.message_id,
-    text="Repo: https://github.com/stevenjohnsonbin/steven-mirrorbot", disable_web_page_preview=True)
+    text="Repo: https://t.me/ANonYmoUS_FriEND", disable_web_page_preview=True)
 
 
 @run_async
