@@ -26,7 +26,7 @@ def speedtest(update, context):
 <b>🚀 SpeedTest Results 💨</b>
 <b>🔺 Upload:</b> <code>{speed_convert(result['upload'] / 8)}</code>
 <b>🔻 Download:</b>  <code>{speed_convert(result['download'] / 8)}</code>
-<b>📶 Ping:</b> <code>{result['ping']} ms</code>
+<b>🖲 Ping:</b> <code>{result['ping']} ms</code>
 <b>🏬 ISP:</b> <code>{result['client']['isp']}</code>
 '''
     ed_msg.delete()
