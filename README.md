@@ -1,4 +1,4 @@
-[![Akeno](https://telegra.ph/file/5a63f0002646a731203bf.png)](https://t.me/ParrotOmoshiroi)
+[![Akeno](https://nodejs.vod-akamaized-adaptive.workers.dev/0:/applegatelinux/IMG_20210423_205116_231.jpg)](https://t.me/eightxbet)
 
 # Akeno Mirror Bot
 This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
